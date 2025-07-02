@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import logoText from '../asset/images/logo text.png';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,7 +23,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center group">
             <div className="text-2xl transform transition-all duration-300 group-hover:scale-110">
-              <img src="src/asset/images/logo text.png" alt="" style={{ width: '130px', height: 'auto' }} />
+              <img src={logoText} alt="" style={{ width: '130px', height: 'auto' }} />
             </div>
           </Link>
 

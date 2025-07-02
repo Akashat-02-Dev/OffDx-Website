@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import AmityLogo from '../asset/images/avcp7pvi6__1_-removebg-preview.png';
 
 export default function AboutUs() {
   return (
@@ -70,7 +71,7 @@ export default function AboutUs() {
       <div className="flex justify-center md:justify-end order-1 md:order-2">
         <a href="https://application.amityonline.com/lp/affiliate/?ams_id=123482">
           <img
-          src="src/asset/images/avcp7pvi6__1_-removebg-preview.png"
+          src={AmityLogo}
           alt="Amity University Logo"
           className="w-40 h-auto mb-4 md:mb-0 drop-shadow-lg bg-white rounded-lg p-2"
           style={{ background: "" }}

@@ -63,13 +63,13 @@ export default function AboutUs() {
           ))}
         </ul>
         <div className="bg-white text-blue-800 p-4 sm:p-6 rounded-lg inline-block transform transition-all duration-300 hover:scale-110 mt-2">
-          <a href="https://application.amityonline.com/lp/affiliate/?ams_id=123482"><h4 className="text-base sm:text-lg font-bold mb-2">Established Partnership</h4>
+          <a href="https://application.amityonline.com/lp/affiliate/?ams_id=1594"><h4 className="text-base sm:text-lg font-bold mb-2">Established Partnership</h4>
           <p className="text-xs sm:text-sm">Trusted collaboration for quality education delivery</p></a>
         </div>
       </div>
       {/* Logo on the right */}
       <div className="flex justify-center md:justify-end order-1 md:order-2">
-        <a href="https://application.amityonline.com/lp/affiliate/?ams_id=123482">
+        <a href="https://application.amityonline.com/lp/affiliate/?ams_id=1594">
           <img
           src={AmityLogo}
           alt="Amity University Logo"
